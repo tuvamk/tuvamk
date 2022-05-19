@@ -1,4 +1,4 @@
-#### Omstrukturere datasett ####
+#### Re-structure dataset ####
 
 switchedrows <- as.data.frame(t(Relative_NA))
 switchedrows <- switchedrows[-c(1,2,3,4,5,6), ] #Fjernet parti etc.
